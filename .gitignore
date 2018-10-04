@@ -3,3 +3,7 @@
 ################################################################################
 
 /.vs/indiv/v15/Server/sqlite3
+/.vs/indiv/v15
+/indiv/bin/Debug
+/indiv/obj/Debug/TempPE
+/indiv/obj/Debug

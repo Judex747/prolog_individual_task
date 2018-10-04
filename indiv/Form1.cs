@@ -54,6 +54,9 @@ namespace indiv
         }
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            listBox1.Items.Clear();
+            listBox2.Items.Clear();
+            listBox3.Items.Clear();
             if (!File.Exists(path_to_swipl + @"\swipl-win.exe"))
             {
                 folderBrowserDialog1.ShowDialog();
